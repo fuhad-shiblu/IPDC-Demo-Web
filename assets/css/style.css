@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* ========== Common CSS Part Start ========== */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --poppins: "Poppins", sans-serif;
+    --rubik: "Rubik", sans-serif;
+}
+/* ========== Common CSS Part End ========== */
+
+/* ========== Navbar CSS Part Start ========== */
+nav{
+    width: 100%;
+    height: 682px;
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    padding-top: 27px;
+}
+.fuhadShiblu_family{
+    width: 905px;
+    height: 654px;
+    position: absolute;
+    top: 114px;
+    right: 0;
+    transition: all linear .1s;
+}
+.fuhadShiblu_family:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_cl{
+    width: 197.65px;
+    height: 71px;
+    position: absolute;
+    top: 144px;
+    right: 605.35px;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    color: #343434;
+    font-family: var(--poppins);
+    text-transform: capitalize;
+    background: #fff;
+    border-radius: 55px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_cl:hover{
+    background: #aaa;
+}
+.fuhadShiblu_cl:active{
+    transform: scale(1.1);
+}
+.fuhadShiblu_clImg{
+    width: 30.65px;
+    height: 30.65px;
+}
+.fuhadShiblu_hl{
+    width: 197.65px;
+    height: 71px;
+    position: absolute;
+    top: 256px;
+    right: 77.35px;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    color: #343434;
+    font-family: var(--poppins);
+    text-transform: capitalize;
+    background: #fff;
+    border-radius: 55px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_hl:hover{
+    background: #aaa;
+}
+.fuhadShiblu_hl:active{
+    transform: scale(1.1);
+}
+.fuhadShiblu_hlImg{
+    width: 30.65px;
+    height: 30.65px;
+}
+.fuhadShiblu_slideBtns{
+    position: absolute;
+    top: 457px;
+    right: 67px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.fuhadShiblu_slideBtns button{
+    width: 8px;
+    height: 8px;
+    background: #CCCCCC;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    transition: all linear .1s;
+}
+.fuhadShiblu_slideBtns button:hover{
+    transform: scale(1.5);
+    background: #F467B2;
+}
+.fuhadShiblu_navLogo img{
+    width: 109px;
+    height: 53px;
+}
+.fuhadShiblu_navMenu ul{
+    display: flex;
+    gap: 36.5px;
+    align-items: center;
+}
+.fuhadShiblu_navMenu ul li a{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #010101;
+    transition: all linear .1s;
+    position: relative;
+}
+.fuhadShiblu_navMenu ul li a::after{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #ED017F;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all linear .1s;
+}
+.fuhadShiblu_navMenu ul li a:hover::after{
+    width: 100%;
+}
+.fuhadShiblu_navMenu ul li a:hover{
+    color: #ED017F;
+}
+.fuhadShiblu_searchIcon{
+    width: 24px;
+    height: 24px;
+}
+.fuhadShiblu_iservice{
+    width: 108px;
+    height: 35px;
+    background: #ED017F;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--rubik);
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 4px;
+    border: 1px solid #ED017F;
+    transition: all linear .1s;
+}
+.fuhadShiblu_iservice:hover{
+    background: transparent;
+    color: #ED017F;
+}
+.fuhadShiblu_iservice:active{
+    transform: scale(1.1);
+    background: #ED017F;
+    color: #fff;
+}
+.fuhadShiblu_isearch{
+    gap: 25px;
+}
+/* ========== Navbar CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
+
+/* ========== Common CSS Part Start ========== */
+/* ========== Common CSS Part End ========== */
