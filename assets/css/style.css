@@ -21,6 +21,8 @@ h1,h2,h3,h4,h5,h6,p{
 :root{
     --poppins: "Poppins", sans-serif;
     --rubik: "Rubik", sans-serif;
+    --abril: "Abril Fatface", serif;
+    --abel: "Abel", sans-serif;
 }
 /* ========== Common CSS Part End ========== */
 
@@ -191,13 +193,182 @@ nav{
 .fuhadShiblu_isearch{
     gap: 25px;
 }
+.fuhadShiblu_navTxtArea{
+    margin: 142px 0 185px;
+}
+.fuhadShiblu_navTxtArea h1{
+    width: 426px;
+    font-size: 63px;
+    line-height: 68px;
+    font-weight: 400;
+    font-family: var(--abril);
+    color: #010101;
+}
+.fuhadShiblu_navTxtArea p{
+    width: 380px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: var(--abel);
+    color: #676767;
+    margin: 23px 0 38px;
+}
+.fuhadShiblu_navTxtArea a{
+    font-size: 12px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #fff;
+    padding: 13px 24px;
+    background: #ED017F;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: 1px solid #ED017F;
+    transition: all linear .1s;
+    margin-right: 20px;
+}
+.fuhadShiblu_navTxtArea a:hover{
+    background: transparent;
+    color: #ED017F;
+}
+.fuhadShiblu_navTxtArea a:active{
+    background: #ED017F;
+    color: #fff;
+    transform: scale(1.1);
+}
+.fuhadShiblu_sclContact{
+    gap: 18px;
+}
+.fuhadShibluSclLine{
+    width: 24px;
+    height: 1px;
+    background: #ccc;
+    transform: rotate(90deg);
+}
+.fuhadShiblu_sclIcons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.fuhadShiblu_sclIcons a{
+    transition: all linear .1s;
+    font-size: 24px;
+}
+.fuhadShiblu_sclIcons a:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_fb{
+    color: #4B7FCD;
+}
+.fuhadShiblu_yt{
+    color: #FF0000;
+}
+.fuhadShiblu_li{
+    color: #4A71FB;
+}
+.fuhadShiblu_ig{
+    color: #ED017F;
+}
 /* ========== Navbar CSS Part End ========== */
 
-/* ========== Common CSS Part Start ========== */
-/* ========== Common CSS Part End ========== */
+/* ========== Experience CSS Part Start ========== */
+#experienceMain{
+    margin-top: 190px;
+}
+.fuhadShiblu_expTxtArea{
+    text-align: center;
+}
+.fuhadShiblu_expTxtArea h2{
+    width: 854px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+    font-family: var(--poppins);
+    color: #343434;
+    margin: 0 auto;
+}
+.fuhadShiblu_expTxtArea p{
+    width: 660px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 22px;
+    font-family: var(--poppins);
+    color: #999;
+    margin: 20px auto 76px;
+}
+.fuhadShiblu_layerArea img{
+    width: 37px;
+    height: 37px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_layerArea img:hover{
+    transform: scale(1.5);
+}
+.fuhadShiblu_layerArea h3{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    line-height: 22px;
+    color: #363940;
+    text-transform: capitalize;
+    margin: 18px 0 10px;
+}
+.fuhadShiblu_layerArea p{
+    width: 160px;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #999;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+/* ========== Experience CSS Part End ========== */
 
-/* ========== Common CSS Part Start ========== */
-/* ========== Common CSS Part End ========== */
+/* ========== Partners CSS Part Start ========== */
+#partnersMain{
+    background: rgba(252, 224, 239, 0.20);
+    padding: 78px 69px;
+}
+.fuhadShiblu_parnersTxtArea h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: var(--poppins);
+    color: #343434;
+    margin-bottom: 76px;
+}
+.fuhadShiblu_partnersImg img{
+    width: 168.7px;
+    height: 88.29px;
+    transition: all linear .1s;
+}
+.fuhadShiblu_partnersImg img:hover{
+    transform: scale(1.1);
+}
+.fuhadShiblu_partnersSlide{
+    margin-top: 67.64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+.fuhadShiblu_partnersSlide button{
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: all linear .1s;
+}
+.fuhadShiblu_partnersSlide button:hover{
+    background: #F467B2;
+    transform: scale(1.5);
+}
+/* ========== Partners CSS Part End ========== */
 
 /* ========== Common CSS Part Start ========== */
 /* ========== Common CSS Part End ========== */
